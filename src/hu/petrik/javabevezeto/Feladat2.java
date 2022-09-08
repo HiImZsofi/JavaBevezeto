@@ -16,7 +16,7 @@ public class Feladat2 {
         double csempeterulet = 20 * 20; //negyzetcenti
         double teruletNeeded = Math.ceil((terulet / csempeterulet) * 1.1);
 
-        System.out.printf("Ehhez a területhez %f csempe szükséges", teruletNeeded);
+        System.out.printf("Ehhez a területhez %.0f csempe szükséges", teruletNeeded);
 
         //System.out.printf("Ehhez a területhez" + Math.round(teruletNeeded) + "csempe szükséges");
     }
