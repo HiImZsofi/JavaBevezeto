@@ -18,6 +18,6 @@ public class Feladat13 {
             else if (randomNum > userNum){
                 out.println("A megadott szám kisebb mint a random");
             }
-        }while(userNum != randomNum);
+        }while(userNum != randomNum); //Variable 'userNum' is not updated inside loop ??????
     }
 }
