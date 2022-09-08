@@ -13,7 +13,7 @@ public class Feladat3 {
         double kicsi = Math.floor(mainNumber); //kisebb szám
         double nagy = Math.ceil(mainNumber); //nagyobb szám
         double kerekit = Math.round(mainNumber); //melyik számhoz van közelebb
-        double tort = mainNumber - kicsi;
+        double tort = mainNumber - kicsi; //tört
 
         out.printf("A megadott szám a %f és a %f egész számok között van, és ezek közül a %f számhoz van közelebb",
                 kicsi, nagy, kerekit);
